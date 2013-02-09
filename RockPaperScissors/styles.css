@@ -147,3 +147,36 @@ table {
 	text-decoration: none;
 	border: none;
 }
+
+/* Rock Paper Scissors */
+
+#weapons{
+	position: relative;
+}
+
+.rock, .paper, .scissors{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	text-indent: -99999px;
+}
+
+.rock{
+	background: url('images/optionRock.jpg') bottom;
+}
+
+.paper{
+	left: 120px;
+	top: -100px;
+	background: url('images/optionPaper.jpg') bottom;
+}
+
+.scissors{
+	left: 240px;
+	top: -200px;
+	background: url('images/optionScissors.jpg') bottom;
+}
+
+.rock:hover, .paper:hover, .scissors:hover{
+	background-position: 0 0;
+}
