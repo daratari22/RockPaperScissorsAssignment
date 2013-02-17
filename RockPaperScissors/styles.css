@@ -83,29 +83,6 @@ table {
 	padding-top: 35px;
 }
 
-.wrap button {
-	text-align: center;
-	font-family: monospace;
-	font-size: 18px;
-	color: #ffffff;
-	width: 200px;
-	padding-top: 3px;
-	padding-bottom: 5px;
-	margin-top: 30px;
-	margin-right: 5px;
-	background-color: #777777; 
-	text-decoration: none;
-	border: none;
-	cursor: pointer;
-}
-
-.wrap button:hover {
-	color: #ffffff;
-	background-color: #ff9933; 
-	text-decoration: none;
-	border: none;
-}
-
 #story {
 	font-family: monospace;
 	font-size: 18px;
@@ -125,58 +102,39 @@ table {
 	margin-top: 5px;
 }
 
-.reset{
-	text-align: center;
-	font-family: monospace;
-	font-size: 18px;
-	color: #ffffff;
-	width: 500px;
-	padding-top: 3px;
-	padding-bottom: 5px;
-	margin-top: 30px;
-	margin-right: 5px;
-	background-color: #777777; 
-	text-decoration: none;
-	border: none;
-	cursor: pointer;
-}
-
-.reset:hover {
-	color: #ffffff;
-	background-color: #ff9933; 
-	text-decoration: none;
-	border: none;
-}
-
-/* Rock Paper Scissors */
+/* Rock Paper Scissors
 
 #weapons{
 	position: relative;
+	width: 100px;
 }
 
-.rock, .paper, .scissors{
+.weapon{
 	position: relative;
 	width: 100px;
 	height: 100px;
 	text-indent: -99999px;
+	text-decoration: none; 
 }
 
-.rock{
+#rock{
 	background: url('images/optionRock.jpg') bottom;
 }
 
-.paper{
+#paper{
 	left: 120px;
 	top: -100px;
 	background: url('images/optionPaper.jpg') bottom;
 }
 
-.scissors{
+#scissors{
 	left: 240px;
 	top: -200px;
 	background: url('images/optionScissors.jpg') bottom;
 }
 
-.rock:hover, .paper:hover, .scissors:hover{
+#rock:hover, #paper:hover, #scissors:hover{
 	background-position: 0 0;
 }
+ */
+
